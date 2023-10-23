@@ -1,4 +1,4 @@
-console.log('=================== TYPES START ===================');
+console.log('=================== PRIMITIVES START ===================');
 
 // Primitives
 const str: string = 'Some string';
@@ -44,4 +44,4 @@ function addAll(...numbers: Array<number>): number {
 const addTwoNumbersExpression: (a: number, b: number) => number = 
 	(a: number, b: number) => a + b;
 
-console.log('==================== TYPES END ====================');
+console.log('==================== PRIMITIVES END ====================');
